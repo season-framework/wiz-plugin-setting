@@ -1,1 +1,1 @@
-{"id":"core.setting","name":"Settings","author_icon":"https://portal.season.co.kr/resources/img/icon.ico","author_email":"proin@season.co.kr","author_name":"SEASON","route":"setting","version":"1.0.0","config":"core.setting.plugin.list","description":"Setting panel for WIZ"}
+{"id":"core.setting","name":"Settings","author_icon":"https://portal.season.co.kr/resources/img/icon.ico","author_email":"proin@season.co.kr","author_name":"SEASON","route":"setting","version":"1.0.0","config":"","description":"Setting panel for WIZ"}
