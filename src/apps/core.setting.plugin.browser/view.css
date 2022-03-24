@@ -1,0 +1,75 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.main-panel {
+	width: 100%;
+}
+
+.filetree {
+	position: relative;
+}
+
+.filetree .title {
+	cursor: pointer;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.filetree .title .file-actions {
+	background: white;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+
+.filetree .title:hover {
+	text-decoration: underline;
+}
+
+.filetree .title.active {
+	font-family: MAIN-EB;
+}
+
+.filetree .sub {
+	padding-left: 16px;
+}
+
+.main-panel {
+	border: 1px solid #aaa;
+	border-top: none;
+}
+
+.main-panel .panel-header {
+	width: 100%;
+	border-bottom: 1px solid #aaa;
+}
+
+.split-pane-divider {
+	background: #aaa;
+}
+
+.panel-editor i {
+	width: 14px;
+}
+
+.panel-editor span {
+	cursor: pointer;
+}
+
+.panel-editor .target-file:hover span.title {
+	border-bottom: 1px solid #000;
+}
+
+.info-form.row {
+	margin: 0;
+}
+
+.main-container {
+	height: 100%;
+	width: 100%;
+}
